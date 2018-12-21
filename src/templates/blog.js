@@ -38,14 +38,14 @@ export default class BlogPage extends Component {
     return (
       <div>
         <Helmet>
-          <title>Blog | Gatsby Starter Business</title>
+          <title>Blog | Climate Tech Inc.</title>
           {/* Schema.org tags */}
           <script type='application/ld+json'>
             {JSON.stringify(websiteSchemaOrgJSONLD)}
           </script>
         </Helmet>
         <section className='hero is-primary is-bold'>
-          <div className='hero-body'>
+          <div className=''>
             <div className='container'>
               <div className='columns'>
                 <div className='column is-10 is-offset-1'>

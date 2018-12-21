@@ -11,7 +11,7 @@ module.exports = {
       feed_url: config.siteUrl + pathPrefix + config.siteRss,
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${config.siteUrl + pathPrefix}/icons/icon-512x512.png`,
+      image_url: `${config.siteUrl + pathPrefix}/icons/climateTechLogo.png`,
       author: config.userName,
       copyright: config.copyright,
     },
@@ -102,13 +102,8 @@ module.exports = {
         display: 'standalone',
         icons: [
           {
-            src: `/icons/icon-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/icons/icon-512x512.png`,
-            sizes: `512x512`,
+            src: `/icons/climateTechLogo.png`,
+            sizes: `500x500`,
             type: `image/png`,
           },
         ],
