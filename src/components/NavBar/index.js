@@ -28,14 +28,13 @@ const NavBar = ({toggleNavbar, isActive}) => (
           </button>
         </div>
         <div className={`navbar-menu ${isActive ? 'is-active' : ''}`} id='navMenu'>
-
           <div className='navbar-end'>
-            <SearchBox searchIndex={data.siteSearchIndex.index} />
             <div className='navbar-item'>
               <div className='field is-grouped'>
                 <p className='control'>
                   <Link
                     className='button is-primary is-outlined'
+                    onClick={toggleNavbar}
                     to='/contact'>
                             Contact Us
                   </Link>
