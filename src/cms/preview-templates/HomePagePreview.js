@@ -8,7 +8,6 @@ const HomePagePreview = ({ entry, getAsset }) => {
 
   const entryTestimonials = entry.getIn(['data', 'testimonials'])
   const testimonials = entryTestimonials ? entryTestimonials.toJS() : []
-
   return (
     <HomePageTemplate
       title={entry.getIn(['data', 'title'])}

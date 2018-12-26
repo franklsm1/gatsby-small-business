@@ -32,12 +32,12 @@ const NavBar = ({toggleNavbar, isActive}) => (
             <div className='navbar-item'>
               <div className='field is-grouped'>
                 <p className='control'>
-                  <Link
+                  <a
                     className='button is-primary is-outlined'
                     onClick={toggleNavbar}
-                    to='/contact'>
-                            Contact Us
-                  </Link>
+                    href='#contact-section'>
+                      Contact Us
+                  </a>
                 </p>
               </div>
             </div>

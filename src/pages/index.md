@@ -11,12 +11,33 @@ description: >-
   Look no further than Climate Tech for expert commercial HVAC services to keep your business running smoothly
 offerings:
   blurbs:
-    - image: /img/blank-profile-picture.png
-      text: >
-       text/bullets about all of the offering you have fill in here
+    - image: /img/commercial-hvac-roof.jpg
+      blurbHeader: Work we specialize in
+      bullets:
+        - preventive maitenance contracts
+        - installing ductless split system units
+        - installing water source heatpump units
+        - installing straight A/C outdoor units with air handles that have hydronic water coils.
+        - repairing old units that other companies tend to want to have replaced with new ones
     - image: /img/hvac-banner.png
-      text: >
-        any description about the company or maybe about the employees. It can be whatever you would like.
+      blurbHeader: Products we work with
+      bullets:
+         - With and on commercial properties
+         - Rooftops
+         - Package units
+         - Ductless split systems
+         - Water source heatpump systems
+    - image: /img/hvac-banner.png
+      blurbHeader: We work on any and every make of unit from
+      bullets:
+         - Aaon
+         - Carrier
+         - Trane
+         - Rheem 
+         - Rudd 
+         - Thermal Zone 
+         - Goodman
+         - Pretty much every manufacture out there
 testimonials:
   - author: Happy Client
     quote: >-

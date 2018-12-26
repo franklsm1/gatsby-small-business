@@ -41,7 +41,8 @@ export const pageQuery = graphql`
         offerings {
           blurbs {
             image
-            text
+            blurbHeader
+            bullets
           }
         }
         testimonials {

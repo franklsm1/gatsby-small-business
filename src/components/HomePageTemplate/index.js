@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
+import ContactForm from '../ContactForm'
 
 const HomePageTemplate = ({
   title,
@@ -23,8 +24,8 @@ const HomePageTemplate = ({
         <div className='container'>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
-              <div className='section'>
-                <h1 className='title'>
+              <div className='section' style={{padding: '1.5rem'}}>
+                <h1 className='has-text-weight-semibold is-size-1'>
                   {title}
                 </h1>
               </div>
@@ -48,6 +49,8 @@ const HomePageTemplate = ({
                 <Offerings gridItems={offerings.blurbs} />
                 <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2>
                 <Testimonials testimonials={testimonials} />
+                <h2 id='contact-section' className='has-text-weight-semibold is-size-2'>Contact Us</h2>
+                <ContactForm />
               </div>
             </div>
           </div>
