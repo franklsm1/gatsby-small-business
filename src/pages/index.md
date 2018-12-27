@@ -1,34 +1,34 @@
 ---
 templateKey: 'home-page'
-title: Climate Tech Inc.
+title: Climate Tech
 meta_title: Home | Climate Tech Inc.
 meta_description: >
   Climate Tech is located in Lusby, Maryland. We primarily operate in the
   Heating and Air Conditioning Contractors business / industry within the Construction -
   Special Trade Contractors sector.
-heading: Commercial HVAC Service in the D.C. Area
+heading: HVAC Service in the D.C. Area
 description: >
   Look no further than Climate Tech for expert commercial HVAC services to keep your business running smoothly
 offerings:
   blurbs:
     - image: /img/commercial-hvac-roof.jpg
-      blurbHeader: Work we specialize in
+      blurbHeader: Services
       bullets:
-        - preventive maitenance contracts
-        - installing ductless split system units
-        - installing water source heatpump units
-        - installing straight A/C outdoor units with air handles that have hydronic water coils.
-        - repairing old units that other companies tend to want to have replaced with new ones
+        - Preventive maitenance contracts
+        - Installing ductless split system units
+        - Installing water source heatpump units
+        - Installing straight A/C outdoor units with air handles that have hydronic water coils.
+        - Repairing old units that other companies tend to want to have replaced with new ones
     - image: /img/hvac-banner.png
-      blurbHeader: Products we work with
+      blurbHeader: Products
       bullets:
-         - With and on commercial properties
+         - Commercial properties
          - Rooftops
          - Package units
          - Ductless split systems
          - Water source heatpump systems
     - image: /img/hvac-banner.png
-      blurbHeader: We work on many different brand units including
+      blurbHeader: Brands we work on
       bullets:
          - Aaon
          - Carrier

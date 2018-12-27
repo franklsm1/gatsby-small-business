@@ -136,7 +136,7 @@ export default class ContactForm extends React.Component {
                 <button
                   type='submit'
                   className='button is-primary'>
-                  Send Inquiry
+                  Send
                 </button>
               </div>
               <div className='control'>
@@ -144,7 +144,7 @@ export default class ContactForm extends React.Component {
                   type='button'
                   onClick={this.clearForm}
                   className='button is-light'>
-                  Reset Form
+                  Clear
                 </button>
               </div>
             </div>
