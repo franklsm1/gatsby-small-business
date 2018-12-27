@@ -61,5 +61,4 @@ export const tagPageQuery = graphql`
         totalCount
       }
     }
-  }
-`
+  }`

@@ -5,10 +5,7 @@ module.exports = {
   siteUrl: 'https://www.climatetech.us', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
   siteDescription: 'HVAC business site for Climate Tech, Inc.', // Website description used for RSS feeds/meta description tag.
-  siteRss: '/rss.xml',
-  siteFBAppID: '', // FB Application ID for using app insights
   googleTagManagerID: '', // GTM tracking ID.
-  disqusShortname: 'gatsby-business-starter', // Disqus shortname.
   userName: 'Chris Bauer',
   userTwitter: '',
   userLocation: 'Lusby, Maryland',
