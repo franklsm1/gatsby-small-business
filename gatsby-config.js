@@ -72,9 +72,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-tagmanager`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        id: config.googleTagManagerID,
+        trackingId: config.googleAnalyticsID,
         includeInDevelopment: false,
       },
     },

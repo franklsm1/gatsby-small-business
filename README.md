@@ -9,7 +9,7 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 ## Features
 * Complete Business Single Page Website  - including a Contact Form
 * Netlify CMS for Content Management
-* SEO Friendly (Sitemap and Google Tag Manager)
+* SEO Friendly (Sitemap and Google Analytics)
 * Bulma and Sass Support for styling
 * Progressive Web App & Offline Support
 * Easy Configuration using `config.js` file
