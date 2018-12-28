@@ -9,6 +9,7 @@ const HomePageTemplate = ({
   title,
   heading,
   description,
+  phoneNumber,
   offerings,
   meta_title,
   meta_description,
@@ -50,6 +51,7 @@ const HomePageTemplate = ({
                 <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2>
                 <Testimonials testimonials={testimonials} />
                 <h2 id='contact-section' className='has-text-weight-semibold is-size-2'>Contact Us</h2>
+                <p>Call us at {phoneNumberLink(phoneNumber)} or send an email below</p>
                 <ContactForm />
               </div>
             </div>
@@ -60,12 +62,19 @@ const HomePageTemplate = ({
   </div>
 )
 
+const phoneNumberLink = (phoneNumber) => (
+  <a href={'tel:+1' + phoneNumber.replace(/\D+/g, '')}>
+    {phoneNumber}
+  </a>
+)
+
 HomePageTemplate.propTypes = {
   title: PropTypes.string,
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
+  phoneNumber: PropTypes.string,
   offerings: PropTypes.shape({
     blurbs: PropTypes.array,
   }),

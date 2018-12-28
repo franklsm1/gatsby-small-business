@@ -9,6 +9,7 @@ meta_description: >
 heading: HVAC Service in the D.C. Area
 description: >
   Look no further than Climate Tech for expert commercial HVAC services to keep your business running smoothly
+phoneNumber: (443)-336-8356
 offerings:
   blurbs:
     - image: /img/commercial-hvac-roof.jpg
